@@ -1,0 +1,41 @@
+{
+  "title": "logisches-schnelles-Denken",
+  "pages": [
+    {"items": [
+      {"type": "textmessage", "content": "Hallo! Herzlich Willkommen auf meiner Testplattform. Zu allererst möchte ich mich bei euch ganz herzlich bedanken, dass ihr an keiner Arbeit teilnehmen wollt:"},
+      {"type": "textmessage", "content": "Nun bitte ich euch das Geschlecht anzugeben:"},
+      {"type": "multiplechoice", "id": "answers": {"1": "männlich", "2": "weiblich"}}
+      {"type": "textmessage", "content": "Damit ihr die Aufgaben richtig versteht, gibt es einen Probelauf. Die Aufgaben basieren auf schnelles, logisches Denken. Bei den meisten Aufgaben werden keine Anleitung angegeben sein. Ihr müsst so schnell wie möglich eine sinngemässe Lösung finden:"},
+      {"type": "textmessage", "content": "Probelauf:"},
+    ]
+    
+   {"items": [ 
+      {"type": "textmessage", "content": "Showing a wonderful image for a couple seconds."},
+      {"type": "image", "path": "example1.png"},
+      {"type": "multiplechoice", "id": "rating1", "answers": {"good": "I love it","ok": "It's ok", "bad": "It's ugly"}}
+    ], "timelimit": {"group": null, "seconds": 3, "timeoutnotice": true}, "actions": ["continue"]},
+    
+    {"items": [{"type": "image", "path": "example1.png"}], "timelimit":{ "group":null, "seconds": 3, "timeoutnotice": false }, "actions": ["continue"]},
+    {"items": [{"type": "image", "path": "example2.png"}], "timelimit":{ "group":null, "seconds": 3, "timeoutnotice": false }, "actions": ["continue"]},
+    {"items": [{"type": "image", "path": "example3.png"}], "timelimit":{ "group":null, "seconds": 3, "timeoutnotice": false }, "actions": ["continue"]},
+    
+    {"items": [
+      {"type": "textmessage", "content": "Now you can choose."},
+      {"id": "rating2", "type": "multiplechoice", "answers": {"A": "Apples","B": "Bananas"}}
+    ], "actions": ["continue"]},
+    
+    {"items": [{"type": "image", "path": "example1.png"}, {"type": "multiplechoice", "id": "rating3", "answers": {"good": "I love it","ok": "It's ok", "bad": "It's ugly"}}], "timelimit":{ "group":null, "seconds": 3, "timeoutnotice": false }, "actions": ["continue"]},
+    {"items": [{"type": "image", "path": "example2.png"}, {"type": "multiplechoice", "id": "rating4", "answers": {"good": "I love it","ok": "It's ok", "bad": "It's ugly"}}], "timelimit":{ "group":null, "seconds": 3, "timeoutnotice": false }, "actions": ["continue"]},
+    {"items": [{"type": "image", "path": "example3.png"}, {"type": "multiplechoice", "id": "rating5", "answers": {"good": "I love it","ok": "It's ok", "bad": "It's ugly"}}], "timelimit":{ "group":null, "seconds": 3, "timeoutnotice": false }, "actions": ["continue"]},
+    
+    {"items": [{"type": "textmessage", "content": "Thank you very much for your participation."}], "actions": []}
+  ]
+}
+
+
+
+
+
+
+{"type": "textinput", "id": "field_code"}
+], "timelimit": null, "actions": ["continue"]},
